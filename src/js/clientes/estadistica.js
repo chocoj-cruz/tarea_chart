@@ -19,7 +19,7 @@ if (!canvas) {
     };
 
     const chartClientes = new Chart(ctx, {
-        type: 'bar',
+        type: 'doughnut',
         data: data,
         options: {
             responsive: true,
